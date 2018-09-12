@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         let reversed = reverse(text: "stressed!")
         print(reversed)
         reverseLabel.text = reversed
+        //test
     }
     func reverse(text: String) -> String {
         return String(text.reversed())
